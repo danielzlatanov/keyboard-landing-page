@@ -50,7 +50,7 @@ nav .container {
 
 nav .container > div {
 	display: grid;
-	grid-template-columns: 1fr 6fr;
+	grid-template-columns: 1fr 0fr;
 	align-items: center;
 }
 
@@ -58,8 +58,8 @@ nav .menu,
 nav .social-media,
 nav .brand {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	margin: 0 auto;
 }
 
 nav ul,
@@ -83,8 +83,12 @@ footer ul a {
 
 .logo {
 	width: 2em;
-	display: inline-block;
+	display: grid;
 }
+
+/* .menu ul {
+	padding-left: 15%;
+} */
 
 .nav-btn {
 	background: rgba(255, 255, 255, 0.3);
@@ -103,7 +107,7 @@ footer ul a {
 	background: rgba(255, 255, 255, 0.6);
 }
 
-nav .container .menu-btn {
+.menu-btn {
 	display: none;
 }
 
@@ -232,7 +236,7 @@ footer ul li:nth-child(1) {
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-height: 400px) {
 	header {
 		height: 40em;
 	}
