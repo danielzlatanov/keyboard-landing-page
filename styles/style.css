@@ -23,8 +23,17 @@ small {
 	color: #fff;
 }
 
+.line {
+	color: red;
+	font-size: 25px;
+}
+
 a {
 	transition: 0.4s;
+}
+
+.slashed-line {
+	color: red;
 }
 
 a:hover {
@@ -79,8 +88,6 @@ footer ul li {
 	display: flex;
 	margin: 0 0.5em;
 }
-
-
 nav ul a,
 footer ul a {
 	font-size: 0.8em;
