@@ -24,6 +24,8 @@ To run this project locally, follow these steps:
 
 ## Responsiveness Demo
 
+https://github.com/danielzlatanov/keyboard-landing-page/assets/110429874/9b4ce1b6-9193-49b6-977d-983b664c5ac8
+
 ## Known Limitations
 
 -   **Mobile Menu**: This project currently does not include a mobile menu feature. Users will navigate through the site on smaller screens without a dedicated menu. Future updates may include this functionality.
